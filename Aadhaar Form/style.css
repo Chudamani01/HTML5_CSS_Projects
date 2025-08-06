@@ -1,0 +1,33 @@
+*{
+    font-family: cursive;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    background-color: rgb(255,255,255);
+    width: 792px;
+    padding: 50px;
+    box-shadow: -10px 30px 50px rgb(35, 245, 84);
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    /* padding: 10px; */
+    width: 100%;
+}
+.sign{
+  display:flex;
+  justify-content:end;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+}
